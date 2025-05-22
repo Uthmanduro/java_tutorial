@@ -64,11 +64,9 @@ public class solutions {
 
         System.out.println(number % 3 == 0 ? "True" : "False");
 
-//        scanner.close();
     }
 
     public static void checkMultiplication(Scanner scanner) {
-//        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a number");
         int number1 = scanner.nextInt();
@@ -78,11 +76,11 @@ public class solutions {
 
         System.out.println(number1 * 3 % number2 * 2 == 0 ? "True" : "False");
 
-        scanner.close();
     }
 
     public static void checkerPattern() {
-        int rows = 8;  // Total number of rows
+        // Total number of rows
+        int rows = 8;
 
         for (int i = 0; i < rows; i++) {
             // For even-numbered rows
